@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+routine ${1:RoutineName}($2): ${3:Integer}
+${4}begin
+	$0
+end
+]]></content>
+	<description>declaration</description>
+    <tabTrigger>routine</tabTrigger>
+    <scope>source.pascal</scope>
+</snippet>
