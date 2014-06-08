@@ -8,7 +8,7 @@
 			<string>pas</string>
 		</array>
 		<key>foldingStartMarker</key>
-		<string>\b(?i:(function|package|procedure|try|type))\b</string>
+		<string>\b(?i:(routine|package|procedure|try|type))\b</string>
 		<key>foldingStopMarker</key>
 		<string>\b(?i:(end))\b</string>
 		<key>keyEquivalent</key>
@@ -19,7 +19,7 @@
 		<array>
 			<dict>
 				<key>match</key>
-				<string>\b(?i:(absolute|abstract|all|and|and_then|array|as|asm|assembler|attribute|begin|bindable|case|class|const|constructor|destructor|delay|div|do|downto|else|end|except|export|exports|external|far|file|finalization|finally|for|forward|goto|if|inc|implementation|import|in|index|inherited|initialization|inline|interface|interrupt|is|label|library|mod|module|near|nil|not|object|of|only|operator|or|or_else|otherwise|packed|pow|private|property|protected|public|published|qualified|record|repeat|resident|restricted|segment|set|shl|shr|then|to|try|type|unit|until|uses|value|var|view|virtual|while|with|xor|write|writeln))\b</string>
+				<string>\b(?i:(ABORT|ABOUT|ACTIVATE|ACTIVATES|ADVANCE|AFTER|ALARM|ALL|ALONG|AND|ANY|ANYERROR|ARM|ARRAY|ASSERT|AT|ATTACH|AWAY|BEFORE|BEGIN|BOOLEAN|BREAK|BY|BYPASS|CALL|CALLS|CANCEL|CASE|CATCH|CLASS|CLOSE|CONDITION|CONNECT|CONST|CONTINUE|CURRENT|CYCLE|CYCLES|DEACTIVATE|DEACTIVATES|DECODE|DELAY|DETACH|DISABLE|DISTANCE|DIV|DO|DOWNTO|DV_CNTRL|ELSE|ENABLE|ENCODE|END|ENDCONDITION|ENDFOR|ENDIF|ENDMOVE|ENDNODEDEF|ENDOPEN|ENDRECORD|ENDSELECT|ENDTRY|ENDWHILE|ERRORCLASS|ERRORNUM|EVENT|EXECS|EXIT|EXPORTED|EZ|FILE|FINAL|FOR|FROM|GOTO|GOTOS|HAND|HOLD|IF|IMPORT|IN|INTEGER|INTERRUPT|JOINTPOS|LOCK|LONGJUMP|MC|MJ|ML|MOD|MOVE|MOVEFLY|MV|NEAR|NL|NODATA|NODEDEF|NODISABLE|NOHOLD|NOSAVE|NOT|NOTEACH|OF|OPEN|OR|PATH|PAUSE|PAUSES|PERCENT|PLC|POSITION|POWERUP|PRIORITY|PROGRAM|PROG_ARM|PULSE|PURGE|RAISE|READ|REAL|RECORD|RELATIVE|RELAX|REPEAT|RESUME|RETRY|RETURN|ROL|ROR|SCAN|SEGMENT|SELECT|SEMAPHORE|SETJUMP|SHL|SHR|SIGNAL|SKIP|STACK|START|STEP|STOP|STRING|SYNCMOVE|SYNCMOVEFLY|THEN|TIL|TIME|TO|TRY|TYPE|UAL|UNLOCK|UNPAUSE|UNPAUSES|UNTIL|VAR|VECTOR|VIA|VOID|WAIT|WHEN|WHILE|WINDOW|WITH|WRITE|XOR|XTNDPOS|YELD))\b</string>
 				<key>name</key>
 				<string>keyword.control.pascal</string>
 			</dict>
@@ -38,7 +38,7 @@
 					</dict>
 				</dict>
 				<key>match</key>
-				<string>\b(?i:(function|procedure))\b\s+(\w+(\.\w+)?)(\(.*?\))?;\s*(?=(?i:attribute|forward|external))</string>
+				<string>\b(?i:(routine|program))\b\s+(\w+(\.\w+)?)(\(.*?\))?;\s*(?=(?i:attribute|forward|external))</string>
 				<key>name</key>
 				<string>meta.function.prototype.pascal</string>
 			</dict>
@@ -58,7 +58,7 @@
 					</dict>
 				</dict>
 				<key>match</key>
-				<string>\b(?i:(function|procedure|program))\b\s+(\w+(\.\w+)?)</string>
+				<string>\b(?i:(routine|program))\b\s+(\w+(\.\w+)?)</string>
 				<key>name</key>
 				<string>meta.function.pascal</string>
 			</dict>
@@ -78,7 +78,7 @@
 					</dict>
 				</dict>
 				<key>match</key>
-				<string>\b(?i:(Shortint|Integer|Longint|Byte|Word|Boolean|WordBool|LongBool|ByteBool|Real|Single|Double|Extended|Comp|String|Char|Length|Upcase|textbackground|textcolor|gotoxy|crt|clrscr|readkey|read|readln))\b</string>
+				<string>\b(?i:(POSITION|Shortint|Integer|Longint|Byte|Word|Boolean|WordBool|LongBool|ByteBool|Real|Single|Double|Extended|Comp|String|Char|Length|Upcase|textbackground|textcolor|gotoxy|crt|clrscr|readkey|read|readln))\b</string>
 				<key>name</key>
 				<string>meta.function.pascal</string>
 			</dict>
