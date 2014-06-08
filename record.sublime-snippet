@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-record
-	${1:fieldName} : ${2:Integer}
+${1:recordName} = RECORD
+	${2:fieldName} : ${3:Integer}
 	$0
-end
+ENDRECORD
+
 ]]></content>
 	<description>declaration</description>
     <tabTrigger>record</tabTrigger>

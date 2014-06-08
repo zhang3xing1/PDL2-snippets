@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-routine ${1:RoutineName}($2): ${3:Integer}
-${4}begin
+
+ROUTINE ${1:RoutineName}($2): ${3:Integer}
+${4}BEGIN
 	$0
-end
+END
 ]]></content>
 	<description>declaration</description>
     <tabTrigger>routine</tabTrigger>

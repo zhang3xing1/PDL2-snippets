@@ -26,8 +26,7 @@
 		{ "trigger": "Extended", "contents": "Extended" },		
 		{ "trigger": "Comp", "contents": "comp" },		
 		
-		{ "trigger": "String", "contents": "String" },		
-		{ "trigger": "Char", "contents": "Char" },		
+		{ "trigger": "String", "contents": "String" },	
 		{ "trigger": "const", "contents": "const" },		
 		{ "trigger": "array", "contents": "array[$1..$2] of" },		
 

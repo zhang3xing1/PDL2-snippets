@@ -1,10 +1,19 @@
 <snippet>
     <content><![CDATA[
-program ${1:ProgramName}
-$2
-begin
-	$3
-end ${1:ProgramName}
+PROGRAM ${1:ProgramName} NOHOLD
+--IMPORT 
+
+--CONST
+
+  TYPE
+    $2
+
+  VAR
+
+
+BEGIN
+	
+END ${1:ProgramName}
 
 ]]></content>
 	<description>declaration</description>
