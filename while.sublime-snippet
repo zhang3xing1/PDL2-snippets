@@ -7,5 +7,5 @@ end
 ]]></content>
 	<description>while loop</description>
     <tabTrigger>while</tabTrigger>
-    <scope>source.pascal</scope> 
+    <scope>source.pdl2</scope> 
 </snippet>

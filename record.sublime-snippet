@@ -7,5 +7,5 @@ end
 ]]></content>
 	<description>declaration</description>
     <tabTrigger>record</tabTrigger>
-    <scope>source.pascal</scope>
+    <scope>source.pdl2</scope>
 </snippet>

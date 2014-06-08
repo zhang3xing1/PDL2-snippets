@@ -21,7 +21,7 @@
 				<key>match</key>
 				<string>\b(?i:(ABORT|ABOUT|ACTIVATE|ACTIVATES|ADVANCE|AFTER|ALARM|ALL|ALONG|AND|ANY|ANYERROR|ARM|ARRAY|ASSERT|AT|ATTACH|AWAY|BEFORE|BEGIN|BOOLEAN|BREAK|BY|BYPASS|CALL|CALLS|CANCEL|CASE|CATCH|CLASS|CLOSE|CONDITION|CONNECT|CONST|CONTINUE|CURRENT|CYCLE|CYCLES|DEACTIVATE|DEACTIVATES|DECODE|DELAY|DETACH|DISABLE|DISTANCE|DIV|DO|DOWNTO|DV_CNTRL|ELSE|ENABLE|ENCODE|END|ENDCONDITION|ENDFOR|ENDIF|ENDMOVE|ENDNODEDEF|ENDOPEN|ENDRECORD|ENDSELECT|ENDTRY|ENDWHILE|ERRORCLASS|ERRORNUM|EVENT|EXECS|EXIT|EXPORTED|EZ|FILE|FINAL|FOR|FROM|GOTO|GOTOS|HAND|HOLD|IF|IMPORT|IN|INTEGER|INTERRUPT|JOINTPOS|LOCK|LONGJUMP|MC|MJ|ML|MOD|MOVE|MOVEFLY|MV|NEAR|NL|NODATA|NODEDEF|NODISABLE|NOHOLD|NOSAVE|NOT|NOTEACH|OF|OPEN|OR|PATH|PAUSE|PAUSES|PERCENT|PLC|POSITION|POWERUP|PRIORITY|PROGRAM|PROG_ARM|PULSE|PURGE|RAISE|READ|REAL|RECORD|RELATIVE|RELAX|REPEAT|RESUME|RETRY|RETURN|ROL|ROR|SCAN|SEGMENT|SELECT|SEMAPHORE|SETJUMP|SHL|SHR|SIGNAL|SKIP|STACK|START|STEP|STOP|STRING|SYNCMOVE|SYNCMOVEFLY|THEN|TIL|TIME|TO|TRY|TYPE|UAL|UNLOCK|UNPAUSE|UNPAUSES|UNTIL|VAR|VECTOR|VIA|VOID|WAIT|WHEN|WHILE|WINDOW|WITH|WRITE|XOR|XTNDPOS|YELD))\b</string>
 				<key>name</key>
-				<string>keyword.control.pascal</string>
+				<string>keyword.control.pdl2</string>
 			</dict>
 			<dict>
 				<key>captures</key>
@@ -29,18 +29,18 @@
 					<key>1</key>
 					<dict>
 						<key>name</key>
-						<string>storage.type.prototype.pascal</string>
+						<string>storage.type.prototype.pdl2</string>
 					</dict>
 					<key>2</key>
 					<dict>
 						<key>name</key>
-						<string>entity.name.function.prototype.pascal</string>
+						<string>entity.name.function.prototype.pdl2</string>
 					</dict>
 				</dict>
 				<key>match</key>
 				<string>\b(?i:(routine|program))\b\s+(\w+(\.\w+)?)(\(.*?\))?;\s*(?=(?i:attribute|forward|external))</string>
 				<key>name</key>
-				<string>meta.function.prototype.pascal</string>
+				<string>meta.function.prototype.pdl2</string>
 			</dict>
 
 			<dict>
@@ -49,18 +49,18 @@
 					<key>1</key>
 					<dict>
 						<key>name</key>
-						<string>storage.type.function.pascal</string>
+						<string>storage.type.function.pdl2</string>
 					</dict>
 					<key>2</key>
 					<dict>
 						<key>name</key>
-						<string>entity.name.function.pascal</string>
+						<string>entity.name.function.pdl2</string>
 					</dict>
 				</dict>
 				<key>match</key>
 				<string>\b(?i:(routine|program))\b\s+(\w+(\.\w+)?)</string>
 				<key>name</key>
-				<string>meta.function.pascal</string>
+				<string>meta.function.pdl2</string>
 			</dict>
 
 			<dict>
@@ -69,18 +69,18 @@
 					<key>1</key>
 					<dict>
 						<key>name</key>
-						<string>storage.type.function.pascal</string>
+						<string>storage.type.function.pdl2</string>
 					</dict>
 					<key>2</key>
 					<dict>
 						<key>name</key>
-						<string>entity.name.function.pascal</string>
+						<string>entity.name.function.pdl2</string>
 					</dict>
 				</dict>
 				<key>match</key>
 				<string>\b(?i:(POSITION|Shortint|Integer|Longint|Byte|Word|Boolean|WordBool|LongBool|ByteBool|Real|Single|Double|Extended|Comp|String|Char|Length|Upcase|textbackground|textcolor|gotoxy|crt|clrscr|readkey|read|readln))\b</string>
 				<key>name</key>
-				<string>meta.function.pascal</string>
+				<string>meta.function.pdl2</string>
 			</dict>
 
 
@@ -88,21 +88,22 @@
 				<key>match</key>
 				<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\b</string>
 				<key>name</key>
-				<string>constant.numeric.pascal</string>
+				<string>constant.numeric.pdl2</string>
 			</dict>
+			
 			<dict>
 				<key>captures</key>
 				<dict>
 					<key>1</key>
 					<dict>
 						<key>name</key>
-						<string>punctuation.definition.comment.pascal</string>
+						<string>punctuation.definition.comment.pdl2</string>
 					</dict>
 				</dict>
 				<key>match</key>
 				<string>(--).*$\n?</string>
 				<key>name</key>
-				<string>comment.line.double-dash.pascal.one</string>
+				<string>comment.line.double-dash.pdl2.one</string>
 			</dict>
 			<dict>
 				<key>captures</key>
@@ -110,13 +111,13 @@
 					<key>1</key>
 					<dict>
 						<key>name</key>
-						<string>punctuation.definition.comment.pascal</string>
+						<string>punctuation.definition.comment.pdl2</string>
 					</dict>
 				</dict>
 				<key>match</key>
 				<string>(//).*$\n?</string>
 				<key>name</key>
-				<string>comment.line.double-slash.pascal.two</string>
+				<string>comment.line.double-slash.pdl2.two</string>
 			</dict>
 			<dict>
 				<key>begin</key>
@@ -126,13 +127,13 @@
 					<key>0</key>
 					<dict>
 						<key>name</key>
-						<string>punctuation.definition.comment.pascal</string>
+						<string>punctuation.definition.comment.pdl2</string>
 					</dict>
 				</dict>
 				<key>end</key>
 				<string>\*\)</string>
 				<key>name</key>
-				<string>comment.block.pascal.one</string>
+				<string>comment.block.pdl2.one</string>
 			</dict>
 			<dict>
 				<key>begin</key>
@@ -142,13 +143,13 @@
 					<key>0</key>
 					<dict>
 						<key>name</key>
-						<string>punctuation.definition.comment.pascal</string>
+						<string>punctuation.definition.comment.pdl2</string>
 					</dict>
 				</dict>
 				<key>end</key>
 				<string>\}</string>
 				<key>name</key>
-				<string>comment.block.pascal.two</string>
+				<string>comment.block.pdl2.two</string>
 			</dict>
 			<dict>
 				<key>applyEndPatternLast</key>
@@ -160,7 +161,7 @@
 					<key>0</key>
 					<dict>
 						<key>name</key>
-						<string>punctuation.definition.string.begin.pascal</string>
+						<string>punctuation.definition.string.begin.pdl2</string>
 					</dict>
 				</dict>
 				<key>end</key>
@@ -170,24 +171,24 @@
 					<key>0</key>
 					<dict>
 						<key>name</key>
-						<string>punctuation.definition.string.end.pascal</string>
+						<string>punctuation.definition.string.end.pdl2</string>
 					</dict>
 				</dict>
 				<key>name</key>
-				<string>string.quoted.single.pascal</string>
+				<string>string.quoted.single.pdl2</string>
 				<key>patterns</key>
 				<array>
 					<dict>
 						<key>match</key>
 						<string>''</string>
 						<key>name</key>
-						<string>constant.character.escape.apostrophe.pascal</string>
+						<string>constant.character.escape.apostrophe.pdl2</string>
 					</dict>
 				</array>
 			</dict>
 		</array>
 		<key>scopeName</key>
-		<string>source.pascal</string>
+		<string>source.pdl2</string>
 		<key>uuid</key>
 		<string>F42FA544-6B1C-11D9-9517-000D93589AF6</string>
 	</dict>

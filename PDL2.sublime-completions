@@ -1,8 +1,8 @@
 {
-	"scope": "source.pascal",
+	"scope": "source.pdl2",
 	"completions":
 	[
-		"pascal",
+		"pdl2",
 
 		{ "trigger": "uses", "contents": "uses" },		
 		{ "trigger": "inc", "contents": "inc($1);" },		

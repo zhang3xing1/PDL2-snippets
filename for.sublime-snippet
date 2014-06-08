@@ -7,5 +7,5 @@ end
 ]]></content>
 	<description>loop</description>
     <tabTrigger>for</tabTrigger>
-    <scope>source.pascal</scope> 
+    <scope>source.pdl2</scope> 
 </snippet>

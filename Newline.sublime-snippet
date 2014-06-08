@@ -4,6 +4,6 @@
 ]]></content>
 	<description>newline</description>
     <tabTrigger>newline</tabTrigger>
-    <scope>source.pascal</scope> 
+    <scope>source.pdl2</scope> 
 </snippet>
 

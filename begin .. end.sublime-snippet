@@ -7,5 +7,5 @@ end
 ]]></content>
 	<description>compound statement</description>
     <tabTrigger>begin</tabTrigger>
-    <scope>source.pascal</scope> 
+    <scope>source.pdl2</scope> 
 </snippet>

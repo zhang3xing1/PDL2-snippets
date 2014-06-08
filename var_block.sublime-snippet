@@ -5,5 +5,5 @@ var
 ]]></content>
 	<description>declaration</description>
     <tabTrigger>var</tabTrigger>
-    <scope>source.pascal</scope> 
+    <scope>source.pdl2</scope> 
 </snippet>

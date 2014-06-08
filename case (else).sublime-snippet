@@ -8,5 +8,5 @@ end
 ]]></content>
 	<description>statement with else</description>
     <tabTrigger>case</tabTrigger>
-    <scope>source.pascal</scope> 
+    <scope>source.pdl2</scope> 
 </snippet>
