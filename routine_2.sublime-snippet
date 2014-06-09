@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-ROUTINE ${1:RoutineName}($2): ${3:Integer}
+ROUTINE ${1:RoutineName}: ${2:Integer}
 VAR 
-  ${4}
+  ${3}
 BEGIN
-	${5}
+	${4}
 END ${1:RoutineName}
 ]]></content>
-	<description>declaration</description>
+	<description>without params</description>
     <tabTrigger>routine</tabTrigger>
     <scope>source.pdl2</scope>
 </snippet>

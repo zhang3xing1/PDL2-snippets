@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+ROUTINE ${1:RoutineName}($2): ARRAY of ${3:String}
+VAR
+  ${4:resultArray} : ARRAY[${5:10}] OF STRING[${6:10}]
+BEGIN
+	$7
+	return (${4:resultArray})
+END ${1:RoutineName}
+
+
+]]></content>
+	<description>array with params</description>
+    <tabTrigger>routine</tabTrigger>
+    <scope>source.pdl2</scope>
+</snippet>
