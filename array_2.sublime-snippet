@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:paramName} : ARRAY[*] OF ${2: Integer}
+]]></content>
+	<description>as params</description>
+    <tabTrigger>array</tabTrigger>
+    <scope>source.pdl2</scope>
+</snippet>

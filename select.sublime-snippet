@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+    <content><![CDATA[
+SELECT ${1:expression} OF
+	CASE (${2:int_val}):
+ENDSELECT
+]]></content>
+	<description>select INTEGER case of</description>
+    <tabTrigger>case</tabTrigger>
+    <scope>source.pdl2</scope> 
+</snippet>

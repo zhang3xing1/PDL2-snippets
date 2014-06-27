@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:arrayName} : ARRAY [${2:10}] OF ${3:Integer}
+]]></content>
+	<description>declaration</description>
+    <tabTrigger>array</tabTrigger>
+    <scope>source.pdl2</scope>
+</snippet>
+
+

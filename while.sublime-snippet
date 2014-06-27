@@ -1,9 +1,8 @@
 <snippet>
     <content><![CDATA[
 while ${1:expression} do
-begin
 	${0}
-end
+endwhile
 ]]></content>
 	<description>while loop</description>
     <tabTrigger>while</tabTrigger>

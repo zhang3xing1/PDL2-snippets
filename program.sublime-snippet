@@ -10,6 +10,8 @@ PROGRAM ${1:ProgramName} NOHOLD
 
   VAR
 
+-- ROUTINES
+
 
 BEGIN
 	

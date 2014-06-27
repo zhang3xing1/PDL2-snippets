@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:stringName} : String [${2:10}]
+]]></content>
+	<description>declaration</description>
+    <tabTrigger>str</tabTrigger>
+    <scope>source.pdl2</scope>
+</snippet>
+
