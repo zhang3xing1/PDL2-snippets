@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-write ${1:lun_var} ()
-]]></content>
-	<description>write lun</description>
-    <tabTrigger>write</tabTrigger>
-    <scope>source.pdl2</scope> 
-</snippet>

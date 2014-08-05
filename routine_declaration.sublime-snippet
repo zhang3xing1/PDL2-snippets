@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+ROUTINE ${1:RoutineName} EXPORTED FROM ${2:ProgramName}
+]]></content>
+	<description>one row</description>
+    <tabTrigger>routine</tabTrigger>
+    <scope>source.pdl2</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+ROUTINE ${1:RoutineName}
+VAR 
+  ${4}
+BEGIN
+	${5}
+END ${1:RoutineName}
+]]></content>
+	<description>no param declaration</description>
+    <tabTrigger>routine</tabTrigger>
+    <scope>source.pdl2</scope>
+</snippet>

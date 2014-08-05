@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+EXPORTED FROM ${1:program_name}
+]]></content>
+	<description>EXPORTED FROM </description>
+    <tabTrigger>exp</tabTrigger>
+    <scope>source.pdl2</scope> 
+</snippet>
